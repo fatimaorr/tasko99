@@ -1,0 +1,127 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background: #9392bd;
+}
+.frame{
+    width: 500px;
+    height: 700px;
+    background: #FFF;
+    padding-top: 64px;
+    padding-left: 40px;
+}
+
+.header h1{
+    width: 363px;
+    height: 27px;
+    color: #434282;
+    font-size: 18px; 
+    font-weight: 600;  
+}
+
+.header p{
+    width: 420px;
+    height: 42px;
+    font-size: 14px;
+    color:#434282;
+    font-weight: 500;
+}
+
+
+.header .box{
+    border-bottom: 2px solid rgba(124, 116, 252, 0.25);
+    width: 500px;
+    height: 64px;
+}
+
+.div{
+    gap:16px;
+    padding-top: 131px;
+    display: flex;
+    margin-left: 25px;
+
+}
+
+.div img{
+    justify-content: center;
+    align-items: center;
+}
+
+.div p{
+    color: #434282;
+    font-size: 14px;
+    font-weight: 600;
+    width: 266px;
+    height: 21px; 
+}
+
+.div1{
+  
+    gap:16px;
+  display: flex;
+}
+
+.main{
+    width: 420px;
+    height: 183px;
+    background: #F0F4FD;
+    border: 1px solid #F0F4FD;
+    border-radius: 5px;
+    padding: 22px;
+    margin-top: 31px;
+}
+    .div1 h4{
+        color: #434282;
+    }
+
+    .main span{
+      color:  #434282;
+      font-size: 12px;
+      font-weight: 500;
+      width: 342px;
+      margin-left: 40px;
+      width: 342px;
+      height: 63px;
+    
+    }
+
+    .main h5{
+        text-align: center;
+        width: 113px;
+        height: 37px;
+        color: white;
+        font-size: 14px;
+        font-weight: 600px;
+        border-radius: 19px;
+        border: 1px solid #7C74FC;
+        background-color:  #7C74FC;
+        margin-top:16px;
+    }
+
+    .card{
+        gap:16px;
+        display: flex;
+        margin-left: 30px;
+        margin-top: 30px;
+    }
+
+    .card img{
+        justify-content: center;
+        align-items: center;
+    }
+    .card p{
+        color: #434282;
+    font-size: 14px;
+    font-weight: 600;
+    width: 266px;
+    height: 21px;
+    }
